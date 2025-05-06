@@ -18,22 +18,12 @@ variable "display_name" {
   description = "The display nem of the db"
 }
 
-variable "cpu_core_count" {
-  type        = number
-  description = "The number of CPU cores"
-}
-
-variable "storage_size_in_tbs" {
-  type        = number
-  description = "The amount of storage in tbs"
-}
-
 variable "db_workload" {
   type        = number
   description = "The type of db workload"
 }
 
-variable "if_free_tier" {
+variable "is_free_tier" {
   type        = bool
   description = "Set if the db is free tier or nah"
 }
