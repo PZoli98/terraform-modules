@@ -23,7 +23,7 @@ variable "cpu_core_count" {
   description = "The number of CPU cores"
 }
 
-variable "data_storage_size_in_tbs" {
+variable "storage_size_in_tbs" {
   type        = number
   description = "The amount of storage in tbs"
 }
