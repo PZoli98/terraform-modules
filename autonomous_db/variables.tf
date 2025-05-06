@@ -19,7 +19,7 @@ variable "display_name" {
 }
 
 variable "db_workload" {
-  type        = number
+  type        = string
   description = "The type of db workload"
 }
 
