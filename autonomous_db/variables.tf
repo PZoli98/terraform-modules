@@ -23,11 +23,6 @@ variable "db_workload" {
   description = "The type of db workload"
 }
 
-variable "is_free_tier" {
-  type        = bool
-  description = "Set if the db is free tier or nah"
-}
-
 variable "license_model" {
   type        = string
   description = "i dont know some license model"
