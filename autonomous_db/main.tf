@@ -11,6 +11,6 @@ resource "oci_database_autonomous_database" "terraform_adb" {
   db_workload = var.db_workload
   is_free_tier = true
   is_mtls_connection_required = false
-  whitelisted_ips = ["193.68.53.38"]
+  whitelisted_ips = var.whitelisted_ips
   license_model = var.license_model
 }

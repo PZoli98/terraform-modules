@@ -27,3 +27,8 @@ variable "license_model" {
   type        = string
   description = "i dont know some license model"
 }
+
+variable "whitelisted_ips" {
+  type        = list(string)
+  description = "A list of IP address that can access the db"
+}
