@@ -19,13 +19,8 @@ variable "display_name" {
 }
 
 variable "db_workload" {
-  type        = number
+  type        = string
   description = "The type of db workload"
-}
-
-variable "is_free_tier" {
-  type        = bool
-  description = "Set if the db is free tier or nah"
 }
 
 variable "license_model" {
