@@ -10,6 +10,5 @@ resource "oci_database_autonomous_database" "terraform_adb" {
   display_name = var.display_name
   db_workload = var.db_workload
   is_free_tier = true
-  is_access_control_enabled = false
   license_model = var.license_model
 }
