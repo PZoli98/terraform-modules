@@ -29,6 +29,5 @@ variable "license_model" {
 }
 
 variable "whitelisted_ips" {
-  type        = list(string)
   description = "A list of IP address that can access the db"
 }
